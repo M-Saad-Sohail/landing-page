@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    margin: inherit;
+    padding: inherit;
+}
+
+.hero{
+    width: 1519px;
+}
+
+.nav{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-item{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+    list-style: none;
+}
+
+.ad{
+    display: flex;
+    background-color: aliceblue;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.ad p{
+    width: 620px;
+}
+
+.opt{
+    background-color: antiquewhite;
+}
+
+.opt ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 70px;
+    font-size: x-large;
+}

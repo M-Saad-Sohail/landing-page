@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <img src="..\image\logo.png"/>
+            <div>
+                <ul>
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Contact</li>
+                    <li class="nav-item">Service</li>
+                </ul>
+            </div>
+        </div>
+        <img class="hero" src="..\image\banner.jpg"/>
+        <div class="ad">
+            <div>
+                <h2>New Product</h2>
+                <h1>The Twist of JJ</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit veritatis eaque dolorum distinctio dolores voluptatum alias nisi pariatur sint vero nihil, dolorem explicabo doloremque nemo labore itaque natus ducimus?</p>
+            </div>
+            <img src="..\image\card1.jpg"/>
+    </div>
+    <div class="opt">
+        <ul>
+            <li><span>Products</span></li>
+            <li><span>Our Story</span></li>
+            <li><span>Design</span></li>
+            <li><span>Location</span></li>
+            
+        </ul>
+    </div>
+    </div>
+
+</body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBY6ZdgwJb3BqSee4SgauJ03cBOMSzqKwo",
+      authDomain: "landingpage-8d79b.firebaseapp.com",
+      projectId: "landingpage-8d79b",
+      storageBucket: "landingpage-8d79b.appspot.com",
+      messagingSenderId: "872998703775",
+      appId: "1:872998703775:web:702f8bee9d83f4d86c08aa",
+      measurementId: "G-QWFTQETF8W"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>
